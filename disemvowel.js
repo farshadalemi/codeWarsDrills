@@ -1,6 +1,6 @@
 function disemvowel(str) {
-    const noVowels = str.replace(/[aeiou]/gi, '');
-    // console.log(noVowels);
+    const noVowels = str.replace(/[aeiou]/gi, 'A', 3);
+    console.log(noVowels);
     return noVowels;
   }
 

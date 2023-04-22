@@ -1,0 +1,74 @@
+
+//// Pass Function to another function!
+
+// function helloTo(){
+//     return("Hello ");
+// }
+
+// function greeting(f){
+//     console.log(f())
+// }
+
+// greeting(helloTo)
+
+//// ---------------------------
+
+// function addOne(number){
+//     return number + 1;
+// }
+
+// function doLog(input){
+//     console.log(input);
+// }
+
+// doLog(addOne(1))
+
+//// ---------------------------
+
+
+// function takeOrder(order){
+    // if (order == "pizza"){
+        // return "Please select quantity"
+    // }
+// }
+// 
+// function doLog(input){
+    // console.log(input);
+// }
+// 
+// doLog(takeOrder("pizza"));
+// 
+
+//// ---------------------------
+
+// function baristra(order, quantity){
+    // 
+    // if(order === "coffee" && quantity >= 1){
+        // console.log("OK ☕");
+        // return function doCoffee(){
+            // return "Ur coffee will be ready in next cuple of minuts"
+        // }
+    // }
+    // else{
+        // return "Please choose ur coffee with quantity more than zero";
+    // }
+// }
+// 
+// function doLog(input){
+    // console.log(input);
+// }
+// 
+// doLog(baristra("coffee", 1))
+
+//// ---------------------------
+
+//// BuiltIn Higher Order Function!
+
+// let primeNumber = [2, 3, 5, 7, 11];
+// console.log(primeNumber.map(primeNumber => (primeNumber ** 2)));
+// console.log(primeNumber.filter(primeNumber => (primeNumber == 11)));
+// setTimeout(() => console.log("SetTimeout is a higher order function"), 2000)
+// setTimeout(() => console.log(primeNumber.map(primeNumber => (primeNumber ** 3))), 1000)
+
+let name = "Redux";
+console.log(name.trim());
